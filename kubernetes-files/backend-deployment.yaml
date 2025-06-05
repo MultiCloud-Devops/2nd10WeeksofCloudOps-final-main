@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 442426876097.dkr.ecr.ap-south-1.amazonaws.com/2nd10weeksofcloudops-final-main-backend:latest
+        image: 442426876097.dkr.ecr.ap-south-1.amazonaws.com/backend:latest
         ports:
         - containerPort: 80
         env:
